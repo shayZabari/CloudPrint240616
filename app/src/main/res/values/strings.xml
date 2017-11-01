@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">הדפסת ענן</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+
+    <string-array name="university" >
+        <item> TEL AVIV</item>
+        <item> TECHNION</item>
+        <item> HERZLIA</item>
+        </string-array>
+
+    <string-array name="telavivemails">
+
+        <item>a4s@print.tau.ac.il </item>
+        <item>a4d@print.tau.ac.il </item>
+        <item>a4color@print.tau.ac.il </item>
+        <item>a4colord@print.tau.ac.il </item>
+    </string-array>
+
+    <string-array name="technionemails">
+
+        <item>print.bws@campus.technion.ac.il</item>
+        <item>print.bwd@campus.technion.ac.il</item>
+        <item>print.color@campus.technion.ac.il</item>
+        <item>print.colord@campus.technion.ac.il</item>
+        <item> print.A3bws@campus.technion.ac.il</item>
+        <item> print.A3bwd@campus.technion.ac.il</item>
+        <item> print.A3color@campus.technion.ac.il</item>
+        <item>not in use </item>
+    </string-array>
+
+    <string-array name="herzliamails">
+
+        <item>printbw@idc.ac.il</item>
+        <item>printbwd@idc.ac.il</item>
+        <item>printcolor@idc.ac.il</item>
+        <item>printcolord@idc.ac.il</item>
+
+    </string-array>
+
+    <string-array name="guides">
+
+        <item>https://soclib.tau.ac.il/Mobile_Print</item>
+        <item>http://www.technion.ac.il/en/</item>
+        <item>http://portal.idc.ac.il/he/main/homepage/pages/homepage.aspx</item>
+    </string-array>
+
+
+
+
+</resources>
