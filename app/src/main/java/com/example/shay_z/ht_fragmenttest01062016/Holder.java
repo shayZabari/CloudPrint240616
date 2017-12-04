@@ -8,7 +8,7 @@ import android.widget.TextView;
  * Created by shay_z on 01/06/2016.
  */
 public class Holder {
-    TextView tvFileName;
+    TextView tvFileName,tvFileSize;
     ImageView imgExtentionFile,imgFolder,imgBlueCheck;
     CheckBox checkBox;
 }

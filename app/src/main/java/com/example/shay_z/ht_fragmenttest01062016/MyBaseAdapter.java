@@ -71,6 +71,7 @@ ArrayList<File> files;
             holder.imgFolder = (ImageView) raw.findViewById(R.id.imgFolder);
             holder.imgExtentionFile = (ImageView) raw.findViewById(R.id.imgExtention);
             holder.imgBlueCheck = (ImageView) raw.findViewById(R.id.blueCheck);
+            holder.tvFileSize = (TextView) raw.findViewById(R.id.tvFilesize);
             raw.setTag(holder);
 
         } else {
@@ -103,6 +104,8 @@ ArrayList<File> files;
             holder.imgBlueCheck.setVisibility(View.INVISIBLE);
         }
         holder.tvFileName.setText(files.get(i).getName());
+        holder.tvFileSize.setText(String.valueOf(files.get(i).length()/1000)+" Kb");
+
         String nameOfTheFile = files.get(i).getName().toString();
         String pathOfTheFile = files.get(i).getParentFile().getName();
 

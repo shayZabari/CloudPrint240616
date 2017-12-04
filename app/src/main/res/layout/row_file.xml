@@ -2,13 +2,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="50dp"
-    android:layout_margin="30dp"
+    android:layout_margin="10dp"
     android:orientation="vertical">
 
+
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
         android:layout_gravity="center"
+        android:layout_margin="5dp"
         android:orientation="horizontal">
 
         <ImageView
@@ -19,51 +21,56 @@
             android:src="@drawable/pdf" />
 
         <LinearLayout
-    android:layout_width="wrap_content"
-    android:orientation="vertical"
-    android:layout_height="wrap_content">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
 
-    <TextView
-        android:id="@+id/tvFileName"
-        android:layout_width="220dp"
-        android:layout_weight="1"
-        android:layout_height="30dp"
-        android:layout_gravity="top"
-        android:layout_marginLeft="10dp"
-        android:gravity="left"
-        android:text="FIle Name"
-        android:textSize="10dp" />
+            <TextView
+                android:id="@+id/tvFileName"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
 
-    <TextView
-        android:id="@+id/tvFilesize"
-        android:layout_width="220dp"
-        android:layout_weight="1"
-        android:layout_height="25dp"
-        android:layout_gravity="top"
-        android:layout_marginLeft="10dp"
-        android:gravity="left"
-        android:text="File SIze"
-        android:textSize="12dp" />
+                android:ellipsize="end"
+                android:gravity="left"
+                android:maxLines="1"
+                android:scrollHorizontally="false"
+                android:text="FIle Name"
+                android:textSize="15dp" />
 
-            <ImageView
-                android:id="@+id/imgFolder"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_gravity="right"
-                android:src="@drawable/folder"
-                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/tvFilesize"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="File SIze"
+                android:textSize="12dp" />
 
 
         </LinearLayout>
 
 
-
         <ImageView
             android:id="@+id/blueCheck"
             android:layout_width="50dp"
-android:visibility="invisible"
-            android:layout_height="50dp"
-            android:src="@drawable/check_mark_blue" />
+            android:layout_height="38dp"
+            android:src="@drawable/check_mark_blue"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imgFolder"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:src="@drawable/folder" />
+
     </LinearLayout>
+
 </LinearLayout>
