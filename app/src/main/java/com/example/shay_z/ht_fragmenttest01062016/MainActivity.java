@@ -82,6 +82,7 @@ public class MainActivity extends AppCompatActivity implements SplashScreenFragm
     @TargetApi(Build.VERSION_CODES.M)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Toast.makeText(this, "asdf", Toast.LENGTH_SHORT).show();
         sharedPreferences = getSharedPreferences("data", Context.MODE_PRIVATE);
         editor = sharedPreferences.edit();
 //        mailsChoosed = new ArrayList<>();
